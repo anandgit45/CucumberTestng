@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19632" started-at="2020-02-20T10:21:44Z" finished-at="2020-02-20T10:22:04Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunnerLogin@9838eb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="19632" started-at="2020-02-20T10:21:44Z" finished-at="2020-02-20T10:22:04Z">
+      <class name="com.testrunner.TestRunnerLogin">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testrunner.TestRunnerLogin@9838eb]" name="setUpClass" is-config="true" duration-ms="225" started-at="2020-02-20T10:21:44Z" finished-at="2020-02-20T10:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunnerLogin@9838eb]" name="runScenario" duration-ms="13718" started-at="2020-02-20T10:21:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-20T10:21:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify login details with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify facebook login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.testrunner.TestRunnerLogin@9838eb]" name="runScenario" duration-ms="19254" started-at="2020-02-20T10:21:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-20T10:22:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify login details with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To verify facebook login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testrunner.TestRunnerLogin@9838eb]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2020-02-20T10:22:04Z" finished-at="2020-02-20T10:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testrunner.TestRunnerLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
